@@ -65,7 +65,6 @@
         function showNextQuote() {
             ++quoteIndex;
             quotes.eq(quoteIndex % quotes.length)
-            //quotes.eq(0).;
                 .fadeIn(2000)
                 .delay(2000)
                 .fadeOut(2000, showNextQuote);
