@@ -1,0 +1,114 @@
+* {
+	margin: 0px; 
+	padding: 0px;
+	}
+
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: #ffffff;
+}
+
+section {
+	margin: auto;
+	padding: auto;
+	width: auto;
+	position: relative; 
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.logo {
+    float: left;
+    margin: 140px 0px 0px 45px;
+    padding: 0px 40px 0px 0px;
+    position: relative;
+    width:155px;
+}
+
+
+.pad {
+    float: left;
+    font-size: 14px;
+    font-family: "Muli", sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    position: relative;
+    margin: 183px 0px 0px 0px;
+}
+
+.intro {
+    font-family: "Muli", sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    width: 270px;
+    float: left;
+    position: relative;
+    margin: 280px 0px 0px -293px;
+}
+
+.quotes {
+    display: none;
+}
+
+/* homepage picture */
+#headerpic {
+    position: absolute;
+    float: right;
+    width: 600px;
+    margin: 0px 0px 0px 345px;
+}
+
+#links {
+    position: fixed;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 445px 0px 0px 0px;
+    padding: 0px 0px 0px 40px;
+}
+
+li {
+    display: inline;
+    text-decoration-line: none;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    padding: 5px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #888888;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+/* ABOUT */
+.about {
+    font-family: "Muli", sans-serif;
+    font-weight: 100;
+    margin-top: 500px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>k2cn designs</title>
+        <link type="text/css" rel="stylesheet" href="css/index.css">
+        <link type="text/css" rel="stylesheet" href="css/simpletextrotator.css">
+        <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,100,200,300,500,700,600,800,900|Muli:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+        <script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    </head>
+    
+    <body>
+    <!-- HOME -->
+        <section>
+        <div>
+            <img src="images/logo.png" class="logo">
+            
+            <div class="pad">
+                <p>Passionate <br> about <br>
+                <span class="quotes">design</span>
+                <span class="quotes">music</span>
+                <span class="quotes">people</span>
+                </p>
+            </div>
+            
+            <p class="intro">Hello there –<br>
+                I’m Kathy, a designer that recently graduated from the  University of California, Davis.
+                <br><br>
+                Fun Fact: <br>
+                I'm a huge fan of Studio Ghibli movies, especially My Neighbor Totoro.
+            </p>
+            
+            <img src="images/homeheader3.png" id="headerpic">
+            
+            <ul id="links">
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">WORK</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+    <!-- WORK -->
+        <div>
+        </div>
+    
+    <!-- ABOUT -->
+        <div>
+            <p class="about">I'm Kathy a visual designer who aims to incite emotions and interactions.</p>
+        </div>
+        
+    <!-- CONTACT -->
+        <div>
+        </div>
+    
+    </section>
+        
+    <!-- JAVASCRIPT -->
+    <script>
+            (function() {
+
+        var quotes = $(".quotes");
+        var quoteIndex = -1;
+
+        function showNextQuote() {
+            ++quoteIndex;
+            quotes.eq(quoteIndex % quotes.length)
+                .fadeIn(2000)
+                .delay(2000)
+                .fadeOut(2000, showNextQuote);
+        }
+
+        showNextQuote();
+
+    })();
+    </script>
+        
+    </body>
+    
+</html>
