@@ -33,6 +33,7 @@
             
             <img src="images/homeheader3.png" id="headerpic">
             
+            <!-- LINKS -->
             <ul id="links">
                 <li><a href="">ABOUT</a></li>
                 <li><a href="">WORK</a></li>
@@ -45,7 +46,7 @@
     
     <!-- ABOUT -->
         <div class="about">
-            <p>I'm Kathy a visual designer who aims to incite emotions and interactions.</p>
+            <p>I'm Kathy a visual designer who aims to incite emotions and interactions. I fell in love with design in high school when I joined the yearbook club as a layout designer. Ever since then, I always looked for </p>
         </div>
         
     <!-- CONTACT -->
@@ -63,7 +64,8 @@
 
         function showNextQuote() {
             ++quoteIndex;
-            quotes.eq(quoteIndex % quotes.length)
+            //quotes.eq(quoteIndex % quotes.length)
+            quotes.eq(0)
                 .fadeIn(2000)
                 .delay(2000)
                 .fadeOut(2000, showNextQuote);
