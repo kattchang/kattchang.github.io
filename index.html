@@ -19,8 +19,8 @@
             <div class="pad">
                 <p>Passionate <br> about <br>
                 <span class="words">design</span>
-                <!--<span class="words">music</span>
-                <span class="words">people</span>-->
+                <span class="words">music</span>
+                <span class="words">people</span>
                 </p>
             </div>
             
@@ -64,8 +64,8 @@
 
         function showNextQuote() {
             ++quoteIndex;
-            //quotes.eq(quoteIndex % quotes.length)
-            quotes.eq(0)
+            quotes.eq(quoteIndex % quotes.length)
+            //quotes.eq(0).;
                 .fadeIn(2000)
                 .delay(2000)
                 .fadeOut(2000, showNextQuote);
