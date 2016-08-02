@@ -110,5 +110,7 @@ a:active {
 .about {
     font-family: "Muli", sans-serif;
     font-weight: 100;
-    margin-top: 500px;
+    font-size: 1px;
+    padding: 600px 0px 0px 45px;
+    
 }
