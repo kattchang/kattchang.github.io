@@ -17,41 +17,70 @@
             <div class="pad">
                 <p>Passionate <br> about <br>
                 <span class="words">design.</span>
-                <span class="words">music.</span>
                 <span class="words">people.</span>
+                <span class="words">animals.</span>
                 </p>
             </div>
             
             <div class="intro">Hello there –– <br>
                 I’m <a id="showabout">Kathy</a>,
-                a designer that recently graduated from the  University of California, Davis.
+                a designer who has just finished one of her many journeys and is ready to venture into her next one.
                 <br><br>
                 Fun Fact: <br>
-                I'm a huge fan of Studio Ghibli movies, especially My Neighbor Totoro.
+                <p id="funfact"></p>
             </div>
             
             <!-- ABOUT -->
             <div class="about" id="about">
-                A visual designer who aims to incite emotions and interactions. I got my first taste of design during my high school
+                A visual designer who aims to incite emotions and interactions. I got my first taste of design during my junior year of high school. 
             </div>
             
             <!-- LINKS -->
             <ul id="links">
                 <li><a href="#work" class="mainlink">WORK</a></li>
-                <li><a href="#about" class="mainlink">ABOUT</a></li>
+                <li><a href="#resume" class="mainlink">RESUME</a></li>
                 <li><a href="#contact" class="mainlink">CONTACT</a></li>
             </ul>
         </section>
         
     <!-- WORK -->
         <section id="work">
-            <p></p>
+            <!--Urban Menagerie-->
+            <div class="col-3">
+                <li><a href="work/urban.html">URBAN MENAGERIE <br><span>UI/UX | branding</span></a></li>
+                <a href="work/urban.html"><img src= "images/urban-icon.png"></a>
+            </div>
+            
+            <!--Design Career Fair--> 
+            <div class="col-3">
+                <li><a href="work/dcf.html">DESIGN CAREER FAIR <br><span>UI/UX | web design</span></a></li>
+                <a href="work/dcf.html"><img src= "images/dcf-icon.png"></a>
+            </div>
+            
+            <!--Whales Unhooked-->
+            <div class="col-3">
+                <li><a href="work/whales.html">WHALES UNHOOKED <br><span>campaign design | branding</span></a></li>
+                <a href="work/whales.html"><img src= "images/whales-icon.png"></a>
+            </div>
+            
+            <!--Lost & Found-->
+            <div class="col-3">
+                <li><a href="work/lostfound.html">LOST & FOUND <br><span>branding | photography </span></a></li>
+                <a href="work/lostfound.html"><img src= "images/urban-icon.png"></a>
+            </div>
+            
+            <!--Davis Loop-->
+            <div class="col-3">
+                <li><a href="work/davisloop.html">DAVIS LOOP <br><span>environmental graphics | branding</span></a></li>
+                <a href="work/davisloop.html"><img src= "images/urban-icon.png"></a>
+            </div>
+            
+            <!--Bow Wow-->
+            <div class="col-3">
+                <li><a href="work/bowwow.html">BOW WOW <br><span>product design | branding</span></a></li>
+                <a href="work/bowwow.html"><img src= "images/urban-icon.png"></a>
+            </div>
         </section>
-    
-    <!-- ABOUT 
-        <section id="about">
-            <p>Hey there – I'm Kathy. A visual designer who aims to incite emotions and interactions. I got my first taste of design during my high school </p>
-        </section> -->
         
     <!-- CONTACT -->
         <section>
@@ -82,6 +111,13 @@
       $("#about").fadeToggle();
     });
     </script>   
+    
+    <script>
+    var textToShow = ['Im a huge fan of Studio Ghibli movies, especially My Neighbor Totoro.', 'I draw inspiration from the magical realms of Tumblr. ', 'People-watching is something I enjoy doing when Im at cafes and restaurants.', 'Ever since I visited a beach with holes in the sand, I realized I have trypophobia.']
+    $(document).ready(function() {
+        $("#funfact").html(textToShow[Math.floor(Math.random()*textToShow.length)]);
+    });
+    </script>
     </body>
     
 </html>

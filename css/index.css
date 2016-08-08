@@ -3,6 +3,11 @@
   src: url("../fonts/muli/Muli-ExtraLight.ttf");
 }
 
+@font-face {
+  font-family: "MuliLight";
+  src: url("../fonts/muli/Muli-Light.ttf");
+}
+
 * {
 	margin: 0px; 
 	padding: 0px;
@@ -75,7 +80,7 @@ body {
 }
 
 #showabout {
-    color: coral;
+    color: #f8a48d;
     cursor: hand;
     cursor: pointer;
 }
@@ -87,9 +92,10 @@ body {
     font-family: "MuliExtraLight";
     font-size: 13px;
     line-height: 25px;
-    background-color: rgba(255,255,255,.6);
+    background-color: rgba(0,0,0,.6);
+    color: white;
     padding: 20px 30px 20px 30px;
-    margin: 265px 160px 0px 0px;
+    margin: 265px 190px 0px 0px;
     width: 350px;
     
 }
@@ -152,13 +158,57 @@ a.mainlink:active {
     background-color: black;
 }
 
-/* ABOUT */
-/*#about {
+#work {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    height: 700px;
+    margin: 50px 100px 50px 100px;
+    padding: 30px 0px 30px 95px;
+}
+
+#work li {
     float: left;
-    height: 800px;
-    font-family: "Muli", sans-serif;
-    font-weight: 100;
-    font-size: 13px;
-    margin: 80px 0px 0px 100px;
-    background color: white;
-}*/
+    display: block;
+}
+
+#work span {
+    font-size: 12px;
+    color: grey;
+}
+
+#work img {
+    width: 200px;
+    height: 200px;
+    padding: 20px 0px 60px 5px;
+}
+
+#work a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+#work a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+#work a:hover {
+    color: #f8a48d;
+    text-decoration: none;
+}
+
+/* selected link */
+#work a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.col-3 {
+    float: left;
+    width: 27%;
+    margin-right: 6.3%;
+}
