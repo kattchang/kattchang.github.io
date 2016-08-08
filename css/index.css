@@ -1,28 +1,53 @@
+@font-face {
+  font-family: "MuliExtraLight";
+  src: url("../fonts/muli/Muli-ExtraLight.ttf");
+}
+
 * {
 	margin: 0px; 
 	padding: 0px;
 	}
 
-
 body {
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
     color: black;
-    background-color: #ffffff;
-}
-
-section {
-	margin: auto;
+    width: auto;
+    margin: auto;
 	padding: auto;
-	width: auto;
 	position: relative; 
 	margin-left: auto;
 	margin-right: auto;
-	}
+}
+
+/*.bg {
+    background: url("..images/homepage_cover2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    height: 750px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}*/
+
+#home{
+    background-image: url(../images/homepage_cover2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 650px;
+    padding: 0px 0px 0px 150px;
+}
 
 .logo {
     float: left;
-    margin: 140px 0px 0px 45px;
+    margin: 100px 0px 0px 45px;
     padding: 0px 40px 0px 0px;
     position: relative;
     width:155px;
@@ -32,21 +57,47 @@ section {
 .pad {
     float: left;
     font-size: 14px;
-    font-family: "Muli", sans-serif;
+    font-family: "MuliExtraLight";
     font-weight: 100;
     letter-spacing: 2px;
     position: relative;
-    margin: 183px 0px 0px 0px;
+    margin: 143px 0px 0px -15px;
 }
 
 .intro {
-    font-family: "Muli", sans-serif;
-    font-size: 12px;
-    font-weight: 200;
+    font-family: "MuliExtraLight";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
     width: 270px;
     float: left;
     position: relative;
-    margin: 280px 0px 0px -293px;
+    margin: 235px 0px 0px -277px;
+}
+
+/*About Link*/
+a.seclink:link {
+    color: black;
+    text-decoration: none;
+    background-color: none;
+}
+
+/* visited link */
+a.seclink:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.seclink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a.seclink:active {
+    color: white;
+    text-decoration: none;
 }
 
 .words {
@@ -57,15 +108,16 @@ section {
 #headerpic {
     position: absolute;
     float: right;
-    width: 600px;
+    max-width: 1000px;
     margin: 0px 0px 0px 345px;
 }
 
+/*links*/
 #links {
-    position: fixed;
+    position: absolute;
     font-size: 16px;
     letter-spacing: 2px;
-    margin: 445px 0px 0px 0px;
+    margin: 470px 0px 0px 0px;
     padding: 0px 0px 0px 40px;
 }
 
@@ -78,7 +130,7 @@ li {
     padding: 5px;
 }
 
-a:link {
+a.mainlink:link {
     color: white;
     text-decoration: none;
     background-color: black;
@@ -86,31 +138,33 @@ a:link {
 }
 
 /* visited link */
-a:visited {
+a.mainlink:visited {
     color: white;
     text-decoration: none;
     background-color: black;
 }
 
 /* mouse over link */
-a:hover {
+a.mainlink:hover {
     color: white;
     text-decoration: none;
     background-color: #888888;
 }
 
 /* selected link */
-a:active {
+a.mainlink:active {
     color: white;
     text-decoration: none;
     background-color: black;
 }
 
 /* ABOUT */
-.about {
+#about {
+    float: left;
+    height: 800px;
     font-family: "Muli", sans-serif;
     font-weight: 100;
     font-size: 13px;
-    padding: 600px 0px 0px 45px;
-    
+    margin: 80px 0px 0px 100px;
+    background color: white;
 }
