@@ -67,12 +67,28 @@ body {
 .intro {
     font-family: "MuliExtraLight";
     font-size: 14px;
-    font-weight: 300;
     line-height: 25px;
     width: 270px;
     float: left;
     position: relative;
     margin: 235px 0px 0px -277px;
+}
+
+#showabout {
+    color: coral;
+}
+
+#about{
+    float: right;
+    display: none;
+    font-family: "MuliExtraLight";
+    font-size: 13px;
+    line-height: 25px;
+    background-color: rgba(255,255,255,.6);
+    padding: 20px 40px 20px 40px;
+    margin: 265px 160px 0px 0px;
+    width: 350px;
+    
 }
 
 /*About Link*/
@@ -159,7 +175,7 @@ a.mainlink:active {
 }
 
 /* ABOUT */
-#about {
+/*#about {
     float: left;
     height: 800px;
     font-family: "Muli", sans-serif;
@@ -167,4 +183,4 @@ a.mainlink:active {
     font-size: 13px;
     margin: 80px 0px 0px 100px;
     background color: white;
-}
+}*/

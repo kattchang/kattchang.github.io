@@ -22,12 +22,17 @@
                 </p>
             </div>
             
-            <p class="intro">Hello there –<br>
-                I’m <a href="" class="seclink">Kathy</a>, a designer that recently graduated from the  University of California, Davis.
+            <div class="intro">Hello there –<br>
+                I’m <a id="showabout">Kathy</a>,
+                a designer that recently graduated from the  University of California, Davis.
                 <br><br>
                 Fun Fact: <br>
                 I'm a huge fan of Studio Ghibli movies, especially My Neighbor Totoro.
-            </p>
+            </div>
+            
+            <div class="about" id="about">
+                A visual designer who aims to incite emotions and interactions. I got my first taste of design during my high school
+            </div>
             
             <!-- LINKS -->
             <ul id="links">
@@ -42,10 +47,10 @@
             <p></p>
         </section>
     
-    <!-- ABOUT -->
+    <!-- ABOUT 
         <section id="about">
             <p>Hey there – I'm Kathy. A visual designer who aims to incite emotions and interactions. I got my first taste of design during my high school </p>
-        </section>
+        </section> -->
         
     <!-- CONTACT -->
         <section>
@@ -70,7 +75,12 @@
 
     })();
     </script>
-        
+    
+    <script>
+    $("#showabout").hover(function () {
+      $("#about").fadeToggle();
+    });
+    </script>   
     </body>
     
 </html>
