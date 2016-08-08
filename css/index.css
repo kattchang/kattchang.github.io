@@ -76,44 +76,22 @@ body {
 
 #showabout {
     color: coral;
+    cursor: hand;
+    cursor: pointer;
 }
 
 #about{
     float: right;
+    position: relative;
     display: none;
     font-family: "MuliExtraLight";
     font-size: 13px;
     line-height: 25px;
     background-color: rgba(255,255,255,.6);
-    padding: 20px 40px 20px 40px;
+    padding: 20px 30px 20px 30px;
     margin: 265px 160px 0px 0px;
     width: 350px;
     
-}
-
-/*About Link*/
-a.seclink:link {
-    color: black;
-    text-decoration: none;
-    background-color: none;
-}
-
-/* visited link */
-a.seclink:visited {
-    color: black;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a.seclink:hover {
-    color: white;
-    text-decoration: none;
-}
-
-/* selected link */
-a.seclink:active {
-    color: white;
-    text-decoration: none;
 }
 
 .words {
