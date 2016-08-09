@@ -25,21 +25,6 @@ body {
 	margin-right: auto;
 }
 
-/*.bg {
-    background: url("..images/homepage_cover2.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    bottom: 0;
-    height: 750px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-}*/
-
 #home{
     background-image: url(../images/homepage_cover2.png);
     background-repeat: no-repeat;
@@ -81,6 +66,7 @@ body {
 
 #showabout {
     color: #f8a48d;
+    text-decoration: underline;
     cursor: hand;
     cursor: pointer;
 }
@@ -164,8 +150,22 @@ a.mainlink:active {
     font-size: 16px;
     line-height: 19px;
     height: 700px;
-    margin: 50px 100px 50px 100px;
-    padding: 30px 0px 30px 95px;
+    width: auto;
+    margin: 30px 100px 50px 100px;
+    padding: 10px 0px 30px 90px;
+}
+
+#work h3 {
+    font-weight: 100;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    margin: 0px 0px 20px 5px;
+    width: 76px;
+    padding: 7px;
 }
 
 #work li {
@@ -181,7 +181,7 @@ a.mainlink:active {
 #work img {
     width: 200px;
     height: 200px;
-    padding: 20px 0px 60px 5px;
+    padding: 10px 0px 35px 5px;
 }
 
 #work a:link {
