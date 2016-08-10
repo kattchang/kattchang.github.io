@@ -141,7 +141,7 @@ a.mainlink:active {
     line-height: 35px;
     font-style: italic;
     border-left: solid;
-    border-left-width: thick;
+    border-left-width: 5px;
     padding-left: 10px;
     margin-bottom: 50px;
     width: 620px;
@@ -156,4 +156,12 @@ iframe {
     float: right;
     transform: scale(0.65);
     margin-top: -290px;
+}
+
+.title {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    margin: 0px 10px 20px 0px;
 }
