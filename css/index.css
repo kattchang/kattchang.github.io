@@ -52,6 +52,7 @@ body {
     letter-spacing: 2px;
     position: relative;
     margin: 133px 0px 0px -15px;
+    width: 150px;
 }
 
 .intro {
@@ -61,7 +62,7 @@ body {
     width: 270px;
     float: left;
     position: relative;
-    margin: 235px 0px 0px -277px;
+    margin: 235px 0px 0px -330px;
 }
 
 #showabout {
@@ -69,6 +70,7 @@ body {
     text-decoration: underline;
     cursor: hand;
     cursor: pointer;
+    font-size: 10px;
 }
 
 #about{
