@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
+    <!-- 
+    // HTML, CSS written and coded by Katherine Chang unless otherwise stated.
+    // Javascipt tweaked using existing codes found online.
+    // © Katherine Chang
+    -->
     <head>
         <meta charset="utf-8">
 
         <title>k2cn designs</title>
         <link type="text/css" rel="stylesheet" href="css/index.css">
+        <link type="text/css" rel="stylesheet" href="css/set1.css">
         <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,100,200,300,500,700,600,800,900|Muli:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
         <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="js/smoothscroll.js" type="text/javascript"></script>
     </head>
     
     <body>
@@ -23,7 +30,7 @@
             </div>
             
             <div class="intro">Hello there –– <br>
-                I’m Katherine, but please call me Kathy! I'm a recent college grad who's looking for her next adventure. <a id="showabout">more</a>
+                I’m Katherine, but please call me Kathy! I'm a designer who's interested in branding, web, and UI/UX. <a id="showabout">more</a>
                 <br><br>
                 Fun Fact: <br>
                 <p id="funfact"></p>
@@ -31,7 +38,8 @@
             
             <!-- ABOUT -->
             <div class="about" id="about">
-                Visual Designer. Expressive stories. 
+                <p>I got my first taste of design back in high school when I joined the yearbook club. It was then that I discovered the magic of Adobe Indesign cs5 and decided that design was something I wanted to pursue in the future. <br><br>
+                As I explored different mediums, I've come to the realization that I want to use my design skills, knowledge, and experiences to hopefully create compelling designs to help and inspire others.</p> 
             </div>
             
             <!-- LINKS -->
@@ -44,52 +52,150 @@
         
     <!-- WORK -->
         <section id="work">
+            
             <h3>WORK</h3> 
+            
             <!--Urban Menagerie-->
-            <div class="col-3">
-                <li><a href="work/urban.html">URBAN MENAGERIE <br><span>UI/UX | branding</span></a></li>
-                <a href="work/urban.html"><img src= "images/urban-icon.png"></a>
-            </div>
+                <figure class="grid">
+                <figure class="effect-roxy">
+                    <img src="images/urban-icon.png">
+                    <figcaption>
+                        <p>URBAN MENAGERIE <br>
+                            <span>UI/UX | branding</span></p>
+                        <a href="work/urban.html">View</a>
+                    </figcaption>
+                </figure>
             
             <!--Design Career Fair--> 
-            <div class="col-3">
-                <li><a href="work/dcf.html">DESIGN CAREER FAIR <br><span>UI/UX | web design</span></a></li>
-                <a href="work/dcf.html"><img src= "images/dcf-icon2.png"></a>
-            </div>
-            
-            <!--Whales Unhooked-->
-            <div class="col-3">
-                <li><a href="work/whales.html">WHALES UNHOOKED <br><span>campaign design | branding</span></a></li>
-                <a href="work/whales.html"><img src= "images/whales-icon.png"></a>
-            </div>
-            
+                <figure class="effect-roxy">
+                    <img src="images/dcf-icon2.png">
+                    <figcaption>
+                        <p> DESIGN CAREER FAIR <br>
+                            <span>UI/UX | web</span></p>
+                        <a href="work/dcf.html">View</a>
+                    </figcaption>
+                </figure>
+                
+             <!--Whales Unhooked-->
+                <figure class="effect-roxy">
+                    <img src="images/whales-icon.png">
+                    <figcaption>
+                        <p> WHALES UNHOOKED <br>
+                            <span>campaign design | branding</span></p>
+                        <a href="work/whales.html">View</a>
+                    </figcaption>
+                </figure>
+                
             <!--Lost & Found-->
-            <div class="col-3">
-                <li><a href="work/lostfound.html">LOST & FOUND <br><span>branding | photography </span></a></li>
-                <a href="work/lostfound.html"><img src= "images/lostfound-icon.png"></a>
-            </div>
+                <figure class="effect-roxy">
+                    <img src="images/lostfound-icon.png">
+                    <figcaption>
+                        <p> LOST & FOUND <br>
+                            <span>branding | photography</span></p>
+                        <a href="work/lostfound.html">View</a>
+                    </figcaption>
+                </figure>
             
             <!--Bow Wow-->
-            <div class="col-3">
-                <li><a href="work/bowwow.html">BOW WOW <br><span>product design | branding</span></a></li>
-                <a href="work/bowwow.html"><img src= "images/bowwow-icon.png"></a>
-            </div>
-            
-            <!--Davis Loop-->
-            <div class="col-3">
-                <li><a href="work/davisloop.html">DAVIS LOOP <br><span>environmental graphics | branding</span></a></li>
-                <a href="work/davisloop.html"><img src= "images/urban-icon.png"></a>
+                <figure class="effect-roxy">
+                    <img src="images/bowwow-icon.png">
+                    <figcaption>
+                        <p> BOW WOW <br>
+                            <span>branding | packaging design</span></p>
+                        <a href="work/bowwow.html">View</a>
+                    </figcaption>
+                </figure> 
+                
+            <!--Misc UI/UX-->
+                <figure class="effect-roxy">
+                    <img src="images/misc-icon.png">
+                    <figcaption>
+                        <p> UI/UX Exercises <br>
+                            <span>UI/UX | web | mobile</span></p>
+                        <a href="work/misc.html">View</a>
+                    </figcaption>
+                </figure> 
             </div>
         </section>
         
-        <!-- RESUME -->
-        <section>
+        
+        <!-- RESUME 
+        <section id="resume">
             
-        </section>
+            <h3>RESUME</h3>
+
+            
+            <div id="skills-assoc">
+                <!-- SKILLS 
+                <h2>Skills</h2>
+                <br>
+                <p><span class="position">Adobe CS/CC</span> <br> Aftereffects<br>Illustrator<br>InDesign<br>Photoshop</p>
+                <br>
+                <p><span class="position">Code</span> <br> HTML<br>CSS<br></p>  
+                <br>
+                <p><span class="position">Languages</span> <br>English<br>Mandarin<br></p>  
+                <br><br>
+                
+                <!-- ASSOCIATIONS 
+                <h2>Associations</h2>
+                <br>
+                <p class="date">October 2015 – June 2016</p>
+                <p><span class="position">Design Director - ASUCD Entrepreneurship Fund</span> <br>
+                Executed and managed the overall design of a current ongoing project to revamp the EFUND website.</p>
+                <br>
+                <p class="date">July 2015 – June 2016</p>
+                <p><span class="position">Graphics and Webmaster</span> <br>
+                Revamped the organization’s brand to maintain a visual connection that is more modern and captivating to the target audience.</p>
+                <br>
+                <p class="date">April 2015 – June 2016</p>
+                <p><span class="position">Member- PIXEL Graphic Design Club</span></p>
+            </div>
+            
+            <div id="experience-projects">
+                <!-- EXPERIENCE
+                <h2>Experience</h2>
+                <br>
+                <p class="date">October 2015 – Present</p>
+                <p><span class="position">Graphic and Web Designer - US Housing</span> <br>
+                Updated the logo for another company also owned under the same owner of US Housing. 
+                Revised past print materials to be distributed to Davis and neighboring towns and cities.</p>
+                <br>
+                <p class="date">April 2015 – June 2016</p>
+                <p><span class="position">Marketing and Design Assistant - UC Davis Office of Undergraduate Education</span> <br>
+                Designed web and print materials under university standards for departmental divisions. 
+                Overlooked/lead the new design direction of OASIS, a website used by more than 10,000 students.</p>
+                <br>
+                <p class="date">January 2015 – March 2015</p>
+                <p><span class="position">Design Intern - UC Davis Design Museum</span> <br>
+                Collaborated with other interns to create flyer and poster graphics for Design by Design, a student juried exhibition.</p>
+                <br><br>
+            
+                <!-- PROJECTS
+                <h2>Project(s)</h2>
+                <br>    
+                <p class="date">February 2015 – June 2016</p>
+                <p><span class="position">Design Career Fair - UC Davis Design Department</span> <br>
+                Organized an annual design-oriented career fair – the first in UC Davis history – with other design students for Spring 2015 and Spring 2016. Sponsored companies specializing in Visual Communication, Interior, Fashion, and Product Design. Collaborated with a team of web designers who took charge of designing the website for the fair. </p>
+            </div>
+
+        </section>-->
         
         <!-- CONTACT -->
-        <section>
-        </section>
+        <div id="contact">
+            <span class="bar"></span>
+            <div id="email">
+                <p>Email me at: katchang@ucdavis.edu</p>
+            </div>
+            <div id="media">
+            <p>Take a look at what I'm doing on these social media:</p>
+            <ul>
+                <li><a href="http://www.kai-ning.tumblr.com">Tumblr</a></li>
+                <li><a href="http://www.linkedin.com/in/katchang2
+                ">Linkedin</a></li>
+                <li style="margin-right: 0px;"><a href="https://www.instagram.com/kckn.27/">Instagram</a></li>
+            </ul>
+            </div>
+        </div>
         
     <!-- JAVASCRIPT -->
     <script>
@@ -112,15 +218,25 @@
     </script>
     
     <script>
-    $("#showabout").hover(function () {
+    $("#showabout").click(function () {
       $("#about").fadeToggle();
     });
     </script>   
     
     <script>
-    var textToShow = ['Im a huge fan of Studio Ghibli movies, especially My Neighbor Totoro.', 'I draw inspiration from the magical realms of Tumblr. ', 'People-watching is something I enjoy doing when Im at cafes and restaurants.', 'Ever since I visited a beach with holes in the sand, I realized I have trypophobia.']
+    var textToShow = ['Im a huge fan of Studio Ghibli movies, especially My Neighbor Totoro.', 'I draw inspiration from the magical realms of Tumblr. ', 'People-watching is something I enjoy doing at cafes and restaurants.', 'Ever since I visited a beach with holes in the sand, I realized I have trypophobia.']
     $(document).ready(function() {
         $("#funfact").html(textToShow[Math.floor(Math.random()*textToShow.length)]);
+    });
+    </script>
+        
+    <script>
+    $(document).ready(function(){
+        $("imghover").hover(function(){
+            $(this).css("background-color", "yellow");
+            }, function(){
+            $(this).css("background-color", "pink");
+        });
     });
     </script>
     </body>

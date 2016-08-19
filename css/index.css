@@ -83,7 +83,7 @@ body {
     background-color: rgba(0,0,0,.6);
     color: white;
     padding: 20px 30px 20px 30px;
-    margin: 265px 190px 0px 0px;
+    margin: 200px 190px 0px 0px;
     width: 350px;
     
 }
@@ -146,15 +146,16 @@ a.mainlink:active {
     background-color: black;
 }
 
+/* WORK */
 #work {
     font-family: "Work Sans", sans-serif;
     font-weight: 200;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 18px;
     height: 700px;
     width: auto;
     margin: 30px 100px 50px 100px;
-    padding: 10px 0px 30px 90px;
+    padding: 10px 0px 30px 55px;
 }
 
 #work h3 {
@@ -165,7 +166,7 @@ a.mainlink:active {
     border-style: solid;
     border-color: black;
     border-width: thin;
-    margin: 0px 0px 20px 5px;
+    margin: 0px 0px 15px 13px;
     width: 76px;
     padding: 7px;
 }
@@ -176,14 +177,19 @@ a.mainlink:active {
 }
 
 #work span {
-    font-size: 12px;
-    color: grey;
+    font-size: 10px;
+    color: white;
 }
 
-#work img {
+#work a img {
     width: 200px;
     height: 200px;
-    padding: 10px 0px 35px 5px;
+    padding: 5px 0px 30px 5px;
+    opacity: 1;
+}
+
+#work a:hover img {
+    opacity: 0.5;
 }
 
 #work a:link {
@@ -214,3 +220,121 @@ a.mainlink:active {
     width: 27%;
     margin-right: 6.3%;
 }
+
+/* RESUME */
+#resume {
+    height: 900px;
+    width: auto;
+    padding: 40px 165px 0px 165px;
+    background-color: #f6f6f6;
+}
+
+#resume h2 {
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#resume p {
+    font-family: "MuliExtraLight";
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#resume h3{
+    font-weight: 100;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    margin-bottom: 25px;
+    width: 105px;
+    padding: 7px;
+}
+
+
+/* SKILLS & ASSOCIATION */
+
+#skills-assoc {
+    float: left;
+    width: 300px;
+}
+
+/* EXPERIENCE & PROJECTS */
+#experience-projects {
+    float: left;
+    width: 400px;
+    margin-left: 45px;
+}
+
+.date {
+    color: grey;
+}
+
+.position {
+    font-family: "Muli";
+    font-weight: 300;
+}
+
+/* CONTACT */
+#contact {
+    float: right;
+    height: 130px;
+    width: 100%;
+    font-family: "Work Sans";
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#contact .bar {
+    background: #f7a38c;
+    display: block;
+    height: 1px;
+}
+
+#email {
+    float: left;
+    margin: 45px 10px 45px 165px;
+}
+
+#media {
+    float: right;
+    margin: 40px 165px 40px 100px;
+}
+
+#contact p {
+
+    color: black;
+}
+
+#contact ul {
+    position: relative;
+    margin-left: -4px;
+}
+
+#contact li {
+    display: inline;
+    position: relative;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+#contact li a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#contact li a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#contact li a:hover{
+    text-decoration: none;
+    color: #f8a48d;
+}
+
