@@ -98,7 +98,6 @@ a.mainlink:active {
 }
 
 .header p {
-    color: black;
     width: 305px;
     margin: 190px 100px 0px 100px;
     position: relative;
@@ -128,7 +127,7 @@ a.mainlink:active {
     font-family: "MuliExtraLight";
     font-weight: 300;
     font-size: 15px;
-    line-height: 25px;
+    line-height: 22px;
     margin: 50px 100px 0px 100px;
     padding: 0px 0px 0px 0px;
 }
@@ -142,7 +141,7 @@ a.mainlink:active {
     font-style: italic;
     border-left: solid;
     border-left-width: 5px;
-    padding-left: 10px;
+    padding: 0px 10px;
     margin-bottom: 50px;
     width: 620px;
 }
@@ -155,7 +154,7 @@ a.mainlink:active {
 iframe {
     float: right;
     transform: scale(0.65);
-    margin-top: -290px;
+    margin-top: -300px;
 }
 
 .title {
