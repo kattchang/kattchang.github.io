@@ -155,15 +155,6 @@ body {
     background:#FFFFFF;
     /*border:2px solid #000;*/
     z-index:100000; 
-    	animation-name: fadeIn;
-	-webkit-animation-name: fadeIn;	
-
-	animation-duration: 1.5s;	
-	-webkit-animation-duration: 1.5s;
-
-	animation-timing-function: ease-in-out;	
-	-webkit-animation-timing-function: ease-in-out;		
-
 }
 
 #CloseBtn {
