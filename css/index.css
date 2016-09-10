@@ -294,7 +294,7 @@ a.mainlink:active {
 /* CONTACT */
 
 .bar {
-    background: olive;
+    background: #7e8976;
     display: block;
     height: 1px;
 }
@@ -361,7 +361,7 @@ a.mainlink:active {
     -moz-border-radius: 0px;
     border-radius: 0px;
     margin-right: 0px;
-    color: #b5c4a9;
+    color: #7e8976;
     background-color: transparent;
 }
 
