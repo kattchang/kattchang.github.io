@@ -20,6 +20,7 @@ body {
 	position: relative; 
 	margin-left: auto;
 	margin-right: auto;
+    font-family:"Work Sans", sans-serif;
 }
 
 .container {
@@ -29,7 +30,43 @@ body {
     background-position: center center;
     background-size: cover;
     padding: 30px;
-    height: 700px;
+    height: 100%;
+}
+
+/*Home Button - Cross*/
+nav {
+    position: fixed;
+    text-decoration-style: none;
+}
+
+li {
+    text-decoration-style: none;
+    list-style-type: none; 
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+a.mainlink:link {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+/* visited link */
+a.mainlink:visited {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.mainlink:hover {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+/* selected link */
+a.mainlink:active {
+    color: #bdbdbd;
+    text-decoration: none;
 }
 
 #buttonstyle
@@ -48,18 +85,21 @@ body {
 }
 
 span {
+    float: right;
     text-align: center;
     position: fixed;
-    font-family: "Muli";
-    font-size: 20px;
+    font-family: "MuliExtraLight";
+    font-size: 16px;
     font-weight: 100;
     letter-spacing: 3px;
     text-transform: lowercase;
     margin-left: 250px;
-    margin-top: 50px;
+    margin-top: 247px;
     padding: 10px;
-    width: 700px;
+    width: 290px;
     color: #D29A4E;
+    transform-origin: bottom;
+    transform: rotate(10deg);
 }
 
 .button1 {
@@ -90,6 +130,12 @@ span {
 .button6 {
     position: fixed;
     margin: 555px 0px 0px 1010px;
+}
+
+p {
+    font-size: 10px;
+    color: #f1f1f1;
+    margin-top: 610px;
 }
 
 /*BALLOON.CSS*/

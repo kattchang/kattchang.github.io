@@ -169,20 +169,22 @@ body {
   
 /*links*/
 #links {
-    display; block;
+    text-align: center;
+    display: block;
     font-size: 16px;
     letter-spacing: 2px;
     margin: auto;
     padding: 20px 0px 0px 175px;
 }
 
-li {
+#links li {
+    float: left;
     display: inline;
     text-decoration-line: none;
     font-family: "Work Sans", sans-serif;
     font-weight: 100;
     font-size: 13px;
-    padding-right: 150px;
+    padding-right: 165px;
 }
 
 a.mainlink:link {
@@ -227,7 +229,7 @@ a.mainlink:active {
     margin: auto;
     padding: 20px 0px 30px 55px;
     background-color: #E8E3E0;
-    background-image: url(../images/halftone.png);
+    background-image: url(../images/subtle_dots.png);
     background-repeat: repeat;
 }
 
@@ -306,6 +308,7 @@ a.mainlink:active {
     letter-spacing: 1px;
     text-align: center;
     padding-top: 30px;
+    background-color: #E8E3E0;
 }
 
 .soc {
@@ -319,7 +322,7 @@ a.mainlink:active {
     display:inline-block;
     *display:inline;
     zoom:1;
-    margin-right: -140px;
+    margin-right: 10px;
 }
 
 .soc li a {
@@ -359,7 +362,7 @@ a.mainlink:active {
     border-radius: 0px;
     margin-right: 0px;
     color: #b5c4a9;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .soc a:hover {
