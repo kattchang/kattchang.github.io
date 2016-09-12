@@ -167,7 +167,7 @@ body {
     margin-left: 200px;
 }
   
-/*links*/
+/*nav links*/
 #links {
     text-align: center;
     display: block;
@@ -184,7 +184,7 @@ body {
     font-family: "Work Sans", sans-serif;
     font-weight: 100;
     font-size: 13px;
-    padding-right: 165px;
+    padding-right: 160px;
 }
 
 a.mainlink:link {
@@ -224,13 +224,14 @@ a.mainlink:active {
     font-weight: 200;
     font-size: 16px;
     line-height: 18px;
-    height: 700px;
+    height: 683px;
     width: auto;
     margin: auto;
     padding: 20px 0px 30px 55px;
     background-color: #E8E3E0;
     background-image: url(../images/subtle_dots.png);
     background-repeat: repeat;
+
 }
 
 #work h3 {
@@ -302,7 +303,7 @@ a.mainlink:active {
 #contact {
     font-family: 'MuliExtraLight';
     float: right;
-    height: 90px;
+    height: 65px;
     width: 100%;
     font-size: 15px;
     letter-spacing: 1px;
@@ -311,9 +312,13 @@ a.mainlink:active {
     background-color: #E8E3E0;
 }
 
+#contact p {
+   margin-top: -15px; 
+}
 .soc {
     overflow:hidden;
-    margin:0; padding:0;
+    margin:0; 
+    padding:0;
     list-style:none;
     text-align: center;
 }
