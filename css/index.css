@@ -45,7 +45,7 @@ body {
 }
 
 #home{
-    background-image: url(../images/pineapples-s.png);  
+    background-image: url(../images/architecture-crop.png);  
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -77,7 +77,7 @@ body {
 }
 
 #typingwords {
-    color: olive;
+    color: lightcoral;
 }
 
 /*blinking cursor*/
@@ -107,7 +107,7 @@ body {
     font-family: "MuliExtraLight";
     font-size: 14px;
     line-height: 25px;
-    width: 400px;
+    max-width: 400px;
     margin: auto;
     padding: 30px 80px; 
     text-align: left;
@@ -126,7 +126,7 @@ body {
     font-family: "MuliExtraLight";
     background: none;
     border-style: none;
-    color: olive;
+    color: lightcoral;
     cursor: pointer; 
 }
 
@@ -162,7 +162,7 @@ body {
     font-size: 12px;
     background: none;
     border-style: none;
-    color: olive;
+    color: lightcoral;
     cursor: pointer; 
     margin-left: 200px;
 }
@@ -171,14 +171,17 @@ body {
 #links {
     text-align: center;
     display: block;
+    position: relative;
     font-size: 16px;
     letter-spacing: 2px;
     margin: auto;
     padding: 20px 0px 0px 175px;
+    max-width: 100%;
 }
 
 #links li {
     float: left;
+    position: relative;
     display: inline;
     text-decoration-line: none;
     font-family: "Work Sans", sans-serif;
@@ -231,7 +234,6 @@ a.mainlink:active {
     background-color: #E8E3E0;
     background-image: url(../images/subtle_dots.png);
     background-repeat: repeat;
-
 }
 
 #work h3 {
@@ -276,7 +278,6 @@ a.mainlink:active {
 
 /* mouse over link */
 #work a:hover {
-    color: #f8a48d;
     text-decoration: none;
 }
 
@@ -295,29 +296,31 @@ a.mainlink:active {
 /* CONTACT */
 
 .bar {
-    background: #7e8976;
+    background: lightcoral;
     display: block;
-    height: 1px;
+    height: 2px;
 }
 
 #contact {
     font-family: 'MuliExtraLight';
     float: right;
-    height: 65px;
+    height: 120px;
     width: 100%;
     font-size: 15px;
     letter-spacing: 1px;
     text-align: center;
     padding-top: 30px;
-    background-color: #E8E3E0;
+    background-color: #e8f2f4;
+    color: lightslategrey;
 }
 
 #contact p {
-   margin-top: -15px; 
+    margin-top: -6px;
 }
+
 .soc {
     overflow:hidden;
-    margin:0; 
+    margin-top:5px; 
     padding:0;
     list-style:none;
     text-align: center;
@@ -366,7 +369,7 @@ a.mainlink:active {
     -moz-border-radius: 0px;
     border-radius: 0px;
     margin-right: 0px;
-    color: #7e8976;
+    color: lightslategrey;
     background-color: transparent;
 }
 
@@ -397,4 +400,18 @@ a.mainlink:active {
 }
 .soc-instagram:before {
     content:'x';
+}
+
+.copyright {
+    display: block;
+    float: left;
+    font-family: "Muli";
+    font-size: 10px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: lightslategrey;
+    margin: -45px 0 0 0;
+    text-align: center;
+    width: 100%;
 }

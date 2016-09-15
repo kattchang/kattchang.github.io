@@ -11,6 +11,7 @@
 * {
 	margin: 0px; 
 	padding: 0px;
+    box-sizing: inherit;
 	}
 
 body {
@@ -48,11 +49,11 @@ nav figcaption {
     letter-spacing: 2px;
     text-transform: uppercase;
     position: fixed;
-    margin: -45px 0px 0px 80px;
+    margin: 20px 70px;
 }
 
 .bar {
-    background: olive;
+    background: darkolivegreen;
     display: block;
     height: 2px;
     width: 100%;
@@ -106,78 +107,77 @@ a.mainlink:active {
 }
 
 /* project header */
+@media screen and (min-width: 768px) {
 .header {
-    height: 440px;
+    max-height: 470px;
     position: relative;
     overflow: hidden;
-    z-index: 1;
-}
-
-.header p {
-    width: 500px;
-    margin: 350px 100px 0px 100px;
-    position: relative;
-    z-index: 2;
-    font-family: "Work Sans";
-    font-weight: 200;
-    font-size: 40px;
-    letter-spacing: 1px;
-    color: #eef0ea;
-    line-height: 28px;
-}
-
-.header span {
-    margin-top: -20px;
-    font-family: "MuliExtraLight";
-    font-size: 15px;
-    font-style: italic;
-    z-index: 2;
 }
 
 .header img{
-    position: absolute;
+    position: relative;
     margin-top: 60px;
-    left: 0;
-    top: 0;
-    width: auto;
+    width: 100%;
     opacity: 0.7;
+    z-index: 0;
 }
 
+.bar2 {
+    position: relative;
+    background: darkolivegreen;
+    display: block;
+    height: 3px;
+    max-width: 620px;
+    z-index: 4;
+    margin: 0 0 0 102px;
+}    
+    
+/*Process*/
 .process {
+    float: left;
+    position: relative;
     font-family: "MuliExtraLight";
     font-weight: 300;
     font-size: 15px;
     line-height: 22px;
-    margin: 60px 100px 0px 100px;
+    margin: 30px 100px 0px 100px;
     padding: 0px 0px 0px 0px;
 }
 
-.quote {
-    float: left;
-    font-family: 'Work Sans', sans-serif;
+.process .name {
+    display: block;
+    width: 600px;
+    margin-top: 10px;
+    font-family: "Work Sans";
     font-weight: 300;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: darkolivegreen;
+    line-height: 28px;
+}
+
+.name span  {
+    font-family: "MuliExtraLight";
+    font-size: 15px;
     font-style: italic;
-    border-left: solid;
-    border-left-width: 5px;
-    padding: 0px 10px;
-    margin-bottom: 50px;
-    width: 620px;
+    z-index: 1;
 }
 
 .content {
+    position: relative;
     float: left;
     width: 620px;
 }
 
 iframe {
+    position: relative;
     float: right;
     transform: scale(0.65);
-    margin-top: -300px;
+    margin: 0px 0px 0px 600px;
 }
 
 .title {
+    position: relative;
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     letter-spacing: 1.5px;
@@ -185,3 +185,26 @@ iframe {
     margin: 0px 10px 20px 0px;
     color: #445525;
 }
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
