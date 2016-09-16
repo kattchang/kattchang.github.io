@@ -45,16 +45,26 @@ body {
 }
 
 #home{
-    background-image: url(../images/architecture-crop.png);  
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
     height: 660px;
     padding: 50px;
-    max-width: 2000px;
 }
 
+@media screen and (min-width: 765px){
+    #home {
+        background-image: url(../images/architecture-crop.png); 
+    }
+}
+
+@media screen and (max-width: 764px){
+    #home {
+        background-image: url(../images/architecture-crop.png); 
+    }
+}
+    
 .title {
     font-family: "Work Sans";
     font-weight: 200;
