@@ -62,7 +62,10 @@ body {
 
 @media screen and (max-width: 764px){
     #home {
-        background-image: url(../images/architecture-small.png); 
+        background-image: url(../images/architecture-crop1.png); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 }
     
