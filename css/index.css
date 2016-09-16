@@ -52,6 +52,7 @@ body {
     background-size: cover;
     height: 660px;
     padding: 50px;
+    max-width: 2000px;
 }
 
 .title {
@@ -224,7 +225,7 @@ a.mainlink:active {
 /* WORK */
 #work {
     font-family: "Work Sans", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     height: 683px;
@@ -236,22 +237,21 @@ a.mainlink:active {
     background-repeat: repeat;
 }
 
-#work h3 {
-    text-align: center;
-    font-weight: 100;
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: black;
-    border-style: solid;
-    border-color: black;
-    border-width: thin;
-    width: 66px;
-    padding: 6px;
+
+#work figure p {
+	margin: 20px 0px 0px 0px;
+}
+
+#work figure p {
+	letter-spacing: 1px;
+	font-size: 15px;
+    font-weight: 300;
+    color: darkslategrey;
 }
 
 #work span {
     font-size: 10px;
-    color: white;
+    color: darkslategrey;
 }
 
 #work a img {
@@ -285,12 +285,6 @@ a.mainlink:active {
 #work a:active {
     color: black;
     text-decoration: none;
-}
-
-.col-3 {
-    float: left;
-    width: 27%;
-    margin-right: 6.3%;
 }
 
 /* CONTACT */

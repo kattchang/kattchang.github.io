@@ -29,11 +29,11 @@ body {
 /*navigation links*/
 nav {
     position: fixed;
-    background-color: #E9E5E2;
+    background-color: #e8f2f4;
     width: 100%;
     height: 60px;
     z-index: 2;
-    box-shadow: 0px 1px 2px #E9E5E2;
+    box-shadow: 0px 1px 2px #e8f2f4;
 }
 
 nav img {
@@ -53,7 +53,7 @@ nav figcaption {
 }
 
 .bar {
-    background: darkolivegreen;
+    background: lightcoral;
     display: block;
     height: 2px;
     width: 100%;
@@ -107,7 +107,6 @@ a.mainlink:active {
 }
 
 /* project header */
-@media screen and (min-width: 768px) {
 .header {
     max-height: 470px;
     position: relative;
@@ -124,11 +123,10 @@ a.mainlink:active {
 
 .bar2 {
     position: relative;
-    background: darkolivegreen;
+    background: lightcoral;
     display: block;
     height: 3px;
     max-width: 620px;
-    z-index: 4;
     margin: 0 0 0 102px;
 }    
     
@@ -140,8 +138,8 @@ a.mainlink:active {
     font-weight: 300;
     font-size: 15px;
     line-height: 22px;
-    margin: 30px 100px 0px 100px;
-    padding: 0px 0px 0px 0px;
+    margin: 0;
+    padding: 30px 100px 0px 100px;
 }
 
 .process .name {
@@ -152,7 +150,7 @@ a.mainlink:active {
     font-weight: 300;
     font-size: 40px;
     letter-spacing: 1px;
-    color: darkolivegreen;
+    color: lightcoral;
     line-height: 28px;
 }
 
@@ -166,13 +164,10 @@ a.mainlink:active {
 .content {
     position: relative;
     float: left;
-    width: 620px;
 }
 
 iframe {
     position: relative;
-    float: right;
-    transform: scale(0.65);
     margin: 0px 0px 0px 600px;
 }
 
@@ -183,8 +178,19 @@ iframe {
     letter-spacing: 1.5px;
     font-size: 18px;
     margin: 0px 10px 20px 0px;
-    color: #445525;
+    color: lightslategrey;
 }
+
+@media screen and (min-width: 768px) {
+.content {
+    width: 620px;
+    }
+    
+iframe {
+    float: right;
+    transform: scale(0.65);
+    }
+
 }
 
 /* For desktop: */
