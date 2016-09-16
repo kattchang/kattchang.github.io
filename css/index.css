@@ -45,6 +45,7 @@ body {
 }
 
 #home{
+    background-image: url(../images/architecture-crop1.png); 
     position: relative;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -52,21 +53,6 @@ body {
     background-size: cover;
     height: 660px;
     padding: 50px;
-}
-
-@media screen and (min-width: 765px){
-    #home {
-        background-image: url(../images/architecture-crop1.png); 
-    }
-}
-
-@media screen and (max-width: 764px){
-    #home {
-        background-image: url(../images/architecture-crop1.png); 
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
 }
     
 .title {
