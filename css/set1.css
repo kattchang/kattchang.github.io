@@ -32,7 +32,7 @@
 	max-height: 100%;
 	max-width: 100%;
     padding-left: 0px;
-	opacity: .7;
+	opacity: .8;
 }
 
 .grid figure figcaption {
@@ -110,7 +110,7 @@ figure.effect-roxy p {
 }
 
 figure.effect-roxy:hover img {
-	opacity: 0.1;
+	opacity: 0.05;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }

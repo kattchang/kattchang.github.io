@@ -59,13 +59,14 @@ nav figcaption {
     width: 100%;
 }
 
-ul {
+.menu ul {
     margin-right: 50px;
     padding: 13px;
+    position: relative;
     float: right;
 }
 
-li {
+.menuli {
     display: inline;
     text-decoration-line: none;
     font-family: "Work Sans", sans-serif;
@@ -95,15 +96,43 @@ a.mainlink:visited {
 
 /* mouse over link */
 a.mainlink:hover {
-    color: olive;
+    color: lightcoral;
     text-decoration: none;
     background-color: none;
 }
 
 /* selected link */
 a.mainlink:active {
-    color: #99a682;
+    color: lightcoral;
     text-decoration: none;
+}
+
+/*drop down menu*/
+.menu ul ul {
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    background: #e8f2f4;
+    padding: 0;
+}
+
+.menu ul ul li {
+    float: none;
+    width: 200px;
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.menu ul ul a {
+    line-height: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li:hover > ul {
+    display: block;
 }
 
 /* project header */
@@ -137,9 +166,10 @@ a.mainlink:active {
     font-family: "MuliExtraLight";
     font-weight: 300;
     font-size: 15px;
-    line-height: 22px;
+    line-height: 24px;
     margin: 0;
     padding: 30px 100px 0px 100px;
+    width: auto;
 }
 
 .process .name {
@@ -164,33 +194,68 @@ a.mainlink:active {
 .content {
     position: relative;
     float: left;
+    width: 500px;
 }
 
 iframe {
     position: relative;
-    margin: 0px 0px 0px 600px;
+    margin: -100px 0px 0px 0px;
+    transform: scale(0.70);
+    display: hidden;
 }
 
 .title {
     position: relative;
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.5px;
     font-size: 18px;
     margin: 0px 10px 20px 0px;
     color: lightslategrey;
 }
 
+.floatleft{
+    float: left;
+    padding: 0 20px 0 0;
+}
+
+.floatright {
+    float: right;
+    padding: 0 20px 0 0;    
+}
+
+.breakpoint {
+    position: relative;
+    background: #e8f2f4;
+    display: block;
+    height: 1px;
+    max-width: 1200px;
+    margin: 0 0 0 0px;
+}
+
 @media screen and (min-width: 768px) {
 .content {
-    width: 620px;
+    width: 100%;
     }
     
 iframe {
     float: right;
     transform: scale(0.65);
+    margin-top: -280px;
     }
 
+.bar2 {
+    position: relative;
+    background: lightcoral;
+    display: block;
+    height: 4px;
+    max-width: 620px;
+    margin: 0 0 0 102px;
+}       
+    
+.small-col {
+        width: 700px;
+    }
 }
 
 /* For desktop: */

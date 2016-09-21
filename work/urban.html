@@ -13,14 +13,22 @@
     <body>
         
         <!-- NAV HEADER -->
-        <nav>
+        <nav class="menu">
             <span class="bar"></span>
-            <figcaption>Katherine Chang</figcaption>
+            <figcaption><a href="../index.html" class="mainlink">Katherine Chang</a></figcaption>
             <ul>
-                <li><a href="../index.html" class="mainlink hvr-underline-reveal">HOME</a></li>  
-                <li><a href="../index.html#work" class="mainlink hvr-underline-reveal">WORK</a></li>
-                <li><a href="../index.html#resume" class="mainlink hvr-underline-reveal">RESUME</a></li>
-                <li><a href="../index.html#contact" class="mainlink hvr-underline-reveal">CONTACT</a></li>
+                <li class="menuli"><a href="../index.html" class="mainlink hvr-underline-reveal">HOME</a></li>  
+                <li class="menuli"><a href="../index.html#work" class="mainlink hvr-underline-reveal">WORK</a> 
+                    <ul class="submenu">
+                        <li><a href="dcf.html" class="mainlink">Design Career Fair</a></li>
+                        <li><a href="whales.html" class="mainlink">Whales Unhooked</a></li>
+                        <li><a href="lostfound.html" class="mainlink">Lost & Found</a></li>
+                        <li><a href="bowwow.html" class="mainlink">Bow Wow</a></li>
+                        <li><a href="misc.html" class="mainlink">UI/UX Exercises</a></li>
+                    </ul>
+                </li>
+                <li class="menuli"><a href="../index.html#resume" class="mainlink hvr-underline-reveal">RESUME</a></li>
+                <li class="menuli"><a href="../index.html#contact" class="mainlink hvr-underline-reveal">CONTACT</a></li>
             </ul>
         </nav>
 
@@ -38,27 +46,71 @@
             <br>
             <div class="content">
                 <p>
+                    <img src="../images/u-ideas.png" alt="sketch ideas" width="300px" class="floatleft">
                     <span class="title">CHALLENGE</span>
                 
-                    We wanted to see if people knew what to do in situations where an animal is lost, injured or deceased. As I discussed the situation with my fellow peers, we noted most people didn't have clear knowledge in helping these creatures. It also appeared that there weren't many immediate resources. Moreover, when various websites did have information, they differed slightly in instructions which could cause confusion. Due to this variance, it would be time-consuming to look up the websites/resources in times of emergencies. This could deter the individual from helping the animal, or even lead to injury of the person or animal.
-                    <br><br>
+                    We wanted to see if people knew what to do in situations where an animal is lost, injured or deceased. As I discussed the situation with designers Vivian Lee and Darren Law, we noted most people didn't have clear knowledge in helping these creatures. It also appeared that there weren't many immediate resources. Moreover, when various websites did have information, they differed slightly in instructions which could cause confusion. Due to this variance, it would be time-consuming to look up the websites/resources in times of emergencies. This could deter the individual from helping the animal, or even lead to injury of the person or animal.
+                    
                     To tackle this problem, my group and I came up with the idea of making an mobile app. This would reduce the time for searching resources and would also serve to inform the public on ways to co-exist with the animals that share their homes.
                 </p>
+                <span class="breakpoint" style="margin-top: 125px"></span>
                 <p>
                     <br><span class="title">PROCESS</span>
                     
-                    In order to confirm our initial observations on people receiving lack of information, we conducted a survey to gather sufficient evidence. 
-                </p>
-                <p>
-                    <br><span class="title">OUTCOME & FINAL THOUGHTS</span>
+                    In order to execute our idea, we needed to gather information on what the public knew. We created an online survey  to ask people in our community to fill it out, and consulted professionals like the Yolo County Biologist for further information. 
+                    <i>Wireframing</i> was our next steps to figure out the best way to organize our functions and data. Two main ways we thought of were either categorizing by the situation first or the identification of the species first.
                     
-                    In order to confirm our initial observations on people receiving lack of information, we conducted a survey to gather sufficient evidence. 
+                    <br><br><img src="../images/u-wireframing3.png" alt="wireframing1" width="31.4%" class="floatleft">
+
+                    <img src="../images/u-wireframing1.png" alt="wireframing2" width="32%" class="floatleft">
+                    
+                    <img src="../images/u-wireframing2.png" alt="wireframing3" width="30%" class="floatleft">
+                </p>
+                    
+                <p style="margin-top: 290px;">
+                    With our wireframing in place, we set out to do a Card Sort (method) with our fellow classmates and professors to find the best way to sort our app links. Many people sorted the cards by doing Found, Lost, Injured first then putting the categories of different animals.
+                </p>
+                <br><br>
+                <p>
+                    <img src="../images/u-logo.png" alt="logo" width="20%" class="floatleft" style="margin-top: -50px;">
+                    
+                    With our general wireframe in place, I took the lead with branding and came up with a logo that shows a fox tail which embodies the spirit of helping animals. Along with the fox tail, the abbreviation "UM" stands for Urban Menagerie, a fancier term we made up for " a diverse collection of wild animals in the city".
+                </p>
+                
+                <span class="breakpoint" style="margin-top: 100px"></span>
+                
+                    <img src="../images/u-animals.png" alt="Mallard Page" width="14.5%" class="floatright" style="margin-top: 35px">    
+                    
+                    <img src="../images/u-firstpage.png" alt="App Homescreen" width="15.9%" class="floatright" style="margin: 35px 0 0 20px;">  
+                
+                    <br><br>
+                <p>
+                    <span class="title">FEATURES</span>
+                    This app is organized by LOST, INJURED, DEAD, and I DON'T KNOW. This categorization was decided because we realized that having all the information on one page was overwhelming to the user. Instead, with this method we were able to separate key information the user should take away immediately. <br><br>
+                    When an user clicks on "an injured animal?" it'll bring them to another page with animal categories for the user to choose from. Once chosen, the animal description page will pop up (Mallard page shown below) and show detailed information. This page went through several interations before we designed a more user-friendly interface. This layout also incororated all the information better, with icons emphasizing each sections. The information on this page is also accompanied by the call button, "CALL CDFW". This allows the user to dial the California Department of Fish and Wildlife for immediate help. <br>
+
+                </p>
+                       
+                <img src="../images/u-Mallard_App.png" alt="lost page" width="29.4%" class="floatleft" style="margin-top: 30px;">  
+                
+                <img src="../images/u-Lost_App.png" alt="lost page" width="31%" class="floatleft" style="margin-top: 30px;">    
+                    
+                <img src="../images/u-dead.jpg" alt="lost page" width="32.9%" class="floatleft" style="margin-top: 30px;">  
+                
+                <span class="breakpoint" style="margin-top: 645px"></span>
+                
+                <p class="small-col">                    
+                    <br><span class="title">FINAL THOUGHTS</span>
+                    
+                    Creating an app like this was an eye-opening experience. In hindsight, I would rearrange some of the app's content hierarchy to further improve the user interface. On top of that, incorporating more resources and data would definitely help in bringing the user to a more accurate contact during specific situations. 
+                    <br><br>
+                    <h3>VIEW INTERACTIVE PROTOTYPE HERE –></h3> 
+                    
+                    
                 </p>
             </div>
-
-            <div>
-            <iframe width="438" height="930" src="//invis.io/SB7IBHV74" frameborder="0" allowfullscreen></iframe>
-            </div>
+            
+            <iframe width="438" height="930" src="//invis.io/SB7IBHV74" frameborder="0" allowfullscreen=""></iframe>            
         </section>
     </body>
     
