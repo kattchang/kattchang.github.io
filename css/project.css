@@ -226,6 +226,16 @@ a.mainlink:active {
     color: lightcoral;
 }
 
+.subtitle {
+    position: relative;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: lightcoral;
+}
+
 .mobile-col { width:100%; margin-bottom: 30px;}
 
 .floatleft{
@@ -276,6 +286,10 @@ h3 a {
 iframe {
         margin: -100px -90px 0px 0px;
         transform: scale(0.60);
+}
+
+.sectionspace {
+    margin-bottom: 100px;
 }
 
 /*MOBILE SCREEN*/
@@ -381,9 +395,13 @@ iframe {
     }  
     
     .urban-marginleft {
-        margin-left: -35px
+        margin-left: 60px
     }
 
+    .whales-center {
+        margin-left: 100px;
+    }
+    
     .breakpoint {
         max-width: 1200px;
     }
@@ -392,9 +410,11 @@ iframe {
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-2-5 {width: 18%;}
+    .col-2-6 {width: 23%;}
     .col-3 {width: 25%;}
     .col-4 {width: 31.3%;}
     .col-5 {width: 41.66%;}
+    .col-5-5 {width: 44%}
     .col-6 {width: 50%;}
     .col-7 {width: 58.33%;}
     .col-8 {width: 71.66%;}
