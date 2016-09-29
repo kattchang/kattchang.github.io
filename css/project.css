@@ -258,6 +258,10 @@ a.mainlink:active {
     padding-bottom: 10px;
 }
 
+.pad-top {
+    padding-top: 20px;
+}
+
 .breakpoint {
     position: relative;
     background: lightcoral;
@@ -395,7 +399,7 @@ iframe {
     }  
     
     .urban-marginleft {
-        margin-left: 60px
+        margin-left: -35px
     }
 
     .whales-center {
