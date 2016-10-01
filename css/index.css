@@ -53,6 +53,7 @@ body {
     padding: 50px;
 }
 
+/*DESKTOP*/
 @media screen and (min-width: 1200px){
     #home {
         background-image: url(../images/architecture-crop1.png);
@@ -64,8 +65,19 @@ body {
         -o-background-size: cover;
         background-size: cover;    
     }
-}
     
+    #links {
+        margin: 0 200px;
+    }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 1199px){
+    #links {
+        margin: 0 150px 0 100px;
+    }
+}
+
 .title {
     font-family: "Work Sans";
     font-weight: 200;
@@ -179,14 +191,13 @@ body {
     margin-left: 200px;
 }
   
-/*nav links*/
+/*NAV LINKS*/
 #links {
     text-align: center;
     display: block;
     position: relative;
     font-size: 16px;
     letter-spacing: 2px;
-    margin: auto;
     padding: 20px 0px 0px 175px;
     max-width: 100%;
 }
@@ -199,7 +210,7 @@ body {
     font-family: "Work Sans", sans-serif;
     font-weight: 100;
     font-size: 13px;
-    padding-right: 160px;
+    padding-right: 30px;
 }
 
 a.mainlink:link {
