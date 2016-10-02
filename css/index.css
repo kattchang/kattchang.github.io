@@ -139,7 +139,7 @@ body {
 @media screen and (max-width: 480px){
     #home-mobile {
         transform: scale(0.8);
-        margin: 0 -40px;
+        margin: -40px -40px;
     }
     
     .nav {
