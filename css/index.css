@@ -143,8 +143,8 @@ body {
     }
     
     .nav {
-        transform: scale(0.73);
-        margin: 20px 0 0 -63px;  
+        transform: scale(0.9);
+        margin: 20px 0 0 -23px;  
     }
     
     #links li {
