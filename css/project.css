@@ -258,8 +258,16 @@ a.mainlink:active {
     padding-right: 20px;  
 }
 
+.imgpadmisc {
+    padding-right: 37px;
+}
+
 .pad-bottom {
     padding-bottom: 10px;
+}
+
+.misc-pad {
+    padding-bottom: 60px;
 }
 
 .pad-top {
