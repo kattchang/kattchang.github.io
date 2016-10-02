@@ -54,7 +54,7 @@ body {
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1025px){
     #home {
         background-image: url(../images/architecture-crop1.png);
         background-repeat: no-repeat;
@@ -77,21 +77,35 @@ body {
     .nav {
         margin: 20px 0 0 -15px;
     }
+    
+    #work {
+        height: 683px;
+        width: auto;
+        margin: auto;
+        padding: 20px 0 0 55px;
+    }
 }
 
 /*TABLET*/
-@media screen and (max-width: 1199px){
+@media screen  and (min-width: 768px) and (max-width: 1024px){
     .nav {
-        margin: 20px 0 0 0;
+        margin: 20px 0 0 -13px;
     }
     
     #links li {
-        padding-right: 23px;
+        padding-right: 30px;
+    }
+    
+    #work {
+        height: auto;
+        width: auto;
+        margin: auto;
+        padding: 20px 0 0 55px;
     }
 }
 
 /*MOBILE*/
-@media screen and (max-width: 480px){
+@media screen and (min-width: 481px) and (max-width: 767px){
     .intro {
         max-width: 400px;
         margin: auto;
@@ -100,13 +114,44 @@ body {
     }
     
     .nav {
-        transform: scale(0.75);
-        margin-left: -58px;  
+        transform: scale(0.86);
+        margin: 20px 0 0 -32px;  
     }
     
     #links li {
-        padding-right: 13px;
+        padding-right: 30px;
     }
+    
+    #work {
+        height: auto;
+        width: auto;
+        margin: auto;
+        padding: 20px 0 0 55px;
+    }
+}
+
+/*MOBILE SMALLER*/
+@media screen and (max-width: 480px){
+    #home-mobile {
+        transform: scale(0.8);
+    }
+    
+    .nav {
+        transform: scale(0.8);
+        margin: 20px 0 0 -46px;  
+    }
+    
+    #links li {
+        padding-right: 17px;
+    }
+    
+    #work {
+        height: auto;
+        width: auto;
+        margin: auto;
+        padding: 20px 0 0 55px;
+    }
+
 }
 
 /*TITLE*/
@@ -288,10 +333,6 @@ a.mainlink:active {
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    height: 683px;
-    width: auto;
-    margin: auto;
-    padding: 20px 0px 30px 55px;
     background-color: #E8E3E0;
     background-image: url(../images/subtle_dots.png);
     background-repeat: repeat;
