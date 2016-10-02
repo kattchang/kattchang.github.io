@@ -67,11 +67,13 @@ body {
     }
     
     #links {
-        padding: 20px 0 0 360px;
+        padding: 20px 0 0 0px;
+        
     }
     
     #links li {
         padding-right: 28px;
+    
     }
     
     .nav {
@@ -282,7 +284,7 @@ body {
 
 #links {
     text-align: center;
-    display: block;
+    display: inline;
     position: relative;
     font-size: 16px;
     letter-spacing: 2px;
