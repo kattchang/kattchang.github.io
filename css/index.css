@@ -116,6 +116,11 @@ body {
     .nav {
         transform: scale(0.86);
         margin: 20px 0 0 -32px;  
+
+    }
+    
+    #links {
+        display:;
     }
     
     #links li {
@@ -134,11 +139,12 @@ body {
 @media screen and (max-width: 480px){
     #home-mobile {
         transform: scale(0.8);
+        margin: 0 -40px;
     }
     
     .nav {
-        transform: scale(0.8);
-        margin: 20px 0 0 -46px;  
+        transform: scale(0.73);
+        margin: 20px 0 0 -63px;  
     }
     
     #links li {
@@ -281,15 +287,13 @@ body {
     position: relative;
     font-size: 16px;
     letter-spacing: 2px;
-    margin: auto;
-    padding: 0px;
     max-width: 100%;
 }
 
 #links li {
     float: left;
     position: relative;
-    display: inline;
+    display: flex;
     text-decoration-line: none;
     font-family: "Work Sans", sans-serif;
     font-weight: 100;
