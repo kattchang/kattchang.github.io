@@ -136,7 +136,7 @@ body {
 }
 
 /*MOBILE SMALLER*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) and (orientation: portrait){
     #home-mobile {
         transform: scale(0.8);
         margin: -40px -80px;
