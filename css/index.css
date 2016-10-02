@@ -76,6 +76,10 @@ body {
     
     }
     
+    a.mainlink:link {
+        padding: 10px;
+    }   
+    
     .nav {
         margin: 20px 0 0 -15px;
     }
@@ -97,6 +101,10 @@ body {
     #links li {
         padding-right: 30px;
     }
+    
+    a.mainlink:link {
+        padding: 10px;
+    }   
     
     #work {
         height: auto;
@@ -128,6 +136,10 @@ body {
         padding-right: 30px;
     }
     
+    a.mainlink:link {
+        padding: 10px;
+    }       
+    
     #work {
         height: auto;
         width: auto;
@@ -151,6 +163,12 @@ body {
     #links li {
         padding-right: 17px;
     }
+    
+    a.mainlink:link {
+        padding: 10px 100px;
+        margin: 10px 50px;
+        width: 150px;
+    }      
     
     #work {
         height: auto;
@@ -307,7 +325,6 @@ a.mainlink:link {
     border-style: solid;
     border-width: thin;
     border-color: black;
-    padding: 10px;
 }
 
 /* visited link */
