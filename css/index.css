@@ -139,7 +139,7 @@ body {
 @media screen and (max-width: 480px) and (orientation: portrait){
     #home-mobile {
         transform: scale(0.8);
-        margin: -40px -80px;
+        margin: -40px -70px;
     }
     
     .nav {
