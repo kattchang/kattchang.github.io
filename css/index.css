@@ -139,8 +139,8 @@ body {
 /*MOBILE SMALLER*/
 @media screen and (max-width: 480px){
     #home-mobile {
-        transform: scale(0.9);
-        margin: 20px -40px;
+        transform: scale(0.8);
+        margin: 0px -60px;
     }
     
     .nav {
