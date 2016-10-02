@@ -151,8 +151,8 @@ body {
 /*MOBILE SMALLER*/
 @media screen and (max-width: 480px){
     #home-mobile {
-        transform: scale(0.8);
-        margin: -40px -60px;
+        transform: scale(0.9);
+        margin: -40px -20px;
     }
     
     .nav {
@@ -166,7 +166,7 @@ body {
     
     a.mainlink:link {
         padding: 10px 100px;
-        margin: 10px 50px;
+        margin: 5px 0px;
         width: 150px;
     }      
     
