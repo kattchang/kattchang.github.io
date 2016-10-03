@@ -176,8 +176,8 @@ a.mainlink:active {
     position: relative;
     font-family: "MuliExtraLight";
     font-weight: 300;
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 30px;
     margin: 0;
 }
 
@@ -263,7 +263,7 @@ a.mainlink:active {
 }
 
 .pad-bottom {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .misc-pad {
@@ -286,8 +286,16 @@ a.mainlink:active {
     margin-top: 280px;
 }
 
+.urbanmargindown {
+    margin-top: 20px
+}
+
 .dcfmargin {
-   margin-top: -40px; 
+   margin-top: -20px; 
+}
+
+.dcfmargindown {
+    margin-top: 40px;
 }
 
 h3 {
