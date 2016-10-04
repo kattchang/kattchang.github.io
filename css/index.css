@@ -161,13 +161,13 @@ body {
     }
     
     #links li {
-        padding-right: 17px;
+        padding-right: ;
     }
     
     a.mainlink:link {
-        padding: 10px 100px;
+        padding: 10px 90px;
         margin: 10px 50px;
-        width: 150px;
+        width: 170px;
     }      
     
     #work {
