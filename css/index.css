@@ -391,7 +391,7 @@ a.otherlink:hover {
 a.otherlink:active {
     color: lightcoral;
     text-decoration: none;
-    background-color: black;
+    background-color: none;
 }
 
 
