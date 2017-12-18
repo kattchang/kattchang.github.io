@@ -361,6 +361,40 @@ a.mainlink:active {
     background-color: black;
 }
 
+
+/* OTHER LINKS */
+
+a.otherlink:link {
+    color: black;
+    text-decoration: none;
+    border-style: none;
+    border-width: thin;
+    border-color: none;
+}
+
+/* visited link */
+a.otherlink:visited {
+    color: lightcoral;
+    text-decoration: none;
+    background-color: none;
+}
+
+/* mouse over link */
+a.otherlink:hover {
+    color: darkgray;
+    text-decoration: none;
+    background-color: none;
+    border-style: none;
+}
+
+/* selected link */
+a.otherlink:active {
+    color: lightcoral;
+    text-decoration: none;
+    background-color: black;
+}
+
+
 /* WORK */
 #work {
     font-family: "Work Sans", sans-serif;
@@ -520,6 +554,9 @@ a.mainlink:active {
 }
 .soc-behance:before {
     content:'H';
+}
+.soc-dribbble:before {
+    content:'D';
 }
 .soc-tumblr:before {
     content:'z';
