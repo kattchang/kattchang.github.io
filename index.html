@@ -1,173 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <!-- 
-    // HTML, CSS written and coded by Katherine Chang unless otherwise stated.
-    // Javascipt tweaked using existing codes found online.
-    // © Katherine Chang
-    -->
     <head>
         <meta charset="utf-8">
         <meta name=viewport content="width=device-width, initial-scale=1">
-        <title>Home – Katherine Chang</title>
+        <title>Katherine Chang</title>
         <link type="text/css" rel="stylesheet" href="css/index.css">
-        <link type="text/css" rel="stylesheet" href="css/set1.css">
-        <link type="text/css" rel="stylesheet" href="css/hover.css">
-        <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,100,200,300,500,700,600,800,900|Muli:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
-        <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script src="js/index.min.js" type='text/javascript'></script>
-        <script src="js/smoothscroll.js" type="text/javascript"></script>
-        <script src="js/hotspots.js" type="text/javascript"></script>
-        <script src="js/funfact.js" type="text/javascript"></script>        
-        <script src="js/typed.js" type="text/javascript"></script>
-        <script>
-            $(function(){$("#typingwords").typed({strings:["design.","people.","solving problems."],typeSpeed:30,backDelay:3E3,loop:!0})}); 
-        </script>
     </head>
-    
     <body>
-    <!-- HOME -->
-        <section id="home">
-        <section id="home-mobile">
-            <p class="title">Katherine Chang</p>
-            
-            <div class="pad">
-                <p>Passionate about <span id="typingwords" ></span><span class="typed-cursor"></span></p>
-            </div>
-            <span id="typed"></span>
-        
+        <section id="cover">
             <div class="intro">
-                <p>Hello there –– <br>
-                I’m Katherine, but please call me Kathy! I'm a designer who's interested in branding and digital design. <button id="LearnMoreBtn">read more?</button></p>             
-            
-    <!-- ABOUT -->
-                <div id="overlay"></div>
-                <div id="popup" class="fadeIn">
-                    <img src="images/profile.jpg">
-                    <p>
-                        Thanks for stopping by and reading my story!<br>
-                        I got my first taste of design back in high school when I joined the yearbook club. It was then that I discovered the magic of Adobe Indesign cs5 and decided that design was something I wanted to pursue.
-                        <br>
-                        As I explored different mediums, I've come to the realization that I want to use my design skills, knowledge, and experiences to create compelling designs to help and hopefully inspire others. <button id="CloseBtn">(close)</button>
-                    </p>
-                    
-                </div>
-                    <br>
-                    <p>Fun Fact:</p>
-                    <p id="funfact"></p>
-                    <br>
-                    <p>Check out my <a href="https://dribbble.com/katchang27" class="otherlink">dribbble</a> or <a href="https://www.instagram.com/aubluvion/" class="otherlink">instagram</a> for my recent projects!</p> 
-
-                <!-- LINKS -->
-                <div class="nav">
-                <ul id="links">
-                    <li><a href="#work" class="mainlink hvr-float">WORK</a></li>
-                    <li><a href="images/resume.pdf" class="mainlink hvr-float">RESUME</a></li>
-                    <li><a href="#contact" class="mainlink hvr-float">CONTACT</a></li>
-                    <li><a href="http://blog.katherinechang.me" class="mainlink hvr-float">BLOG</a></li>
-                </ul>   
-                </div>
+                <p>Hey I'm Katherine (Kathy),</p>
+                <p class="desc"><span>A designer</span> with a passion for branding and digital design. Junior graphics designer <span>@Williams Sonoma.</span> Currently taking on freelance project.</p>
+                <p>See my recent work on Instagram & Dribbble. Feel free to reach out via email or my linkedIn with any questions, comments, requests! :]</p>
             </div>
         </section>
-        </section>
-        
-    <!-- WORK -->
-        <section id="work">
-            <br><br>
-            <!--Urban Menagerie-->
-            <figure class="grid">
-                <figure class="effect-roxy">
-                    <img src="images/urban-icon.png">
-                    <figcaption>
-                        <p>URBAN MENAGERIE <br>
-                            <span>UI/UX | branding</span></p>
-                        <a href="work/urban.html">View</a>
-                    </figcaption>
-                </figure>
-            
-            <!--Design Career Fair--> 
-                <figure class="effect-roxy">
-                    <img src="images/dcf-icon2.png">
-                    <figcaption>
-                        <p> DESIGN CAREER FAIR <br>
-                            <span>UI/UX | web</span></p>
-                        <a href="work/dcf.html">View</a>
-                    </figcaption>
-                </figure>
-                
-             <!--Whales Unhooked-->
-                <figure class="effect-roxy">
-                    <img src="images/whales-icon.png">
-                    <figcaption>
-                        <p> WHALES UNHOOKED <br>
-                            <span>campaign design | branding</span></p>
-                        <a href="work/whales.html">View</a>
-                    </figcaption>
-                </figure>
-                
-            <!--Lost & Found-->
-                <figure class="effect-roxy">
-                    <img src="images/lostfound-icon.png">
-                    <figcaption>
-                        <p> LOST & FOUND <br>
-                            <span>branding | photography</span></p>
-                        <a href="work/lostfound.html">View</a>
-                    </figcaption>
-                </figure>
-            
-            <!--Bow Wow-->
-                <figure class="effect-roxy">
-                    <img src="images/bowwow-icon.png">
-                    <figcaption>
-                        <p> BOW WOW <br>
-                            <span>branding | packaging design</span></p>
-                        <a href="work/bowwow.html">View</a>
-                    </figcaption>
-                </figure> 
-                
-            <!--Misc UI/UX-->
-                <figure class="effect-roxy">
-                    <img src="images/misc-icon.png">
-                    <figcaption>
-                        <p> Various Exercises <br>
-                            <span>UI/UX | Graphics</span></p>
-                        <a href="work/misc.html">View</a>
-                    </figcaption>
-                </figure> 
-            </figure>
-        </section>
-        
-    <!-- CONTACT -->
-        <span class="bar"></span>    
-        <section id="contact">
-            <p>Feel free to send me an email and check out my other social media–</p>
-                <ul class="soc">
-                    <li><a class="soc-email2" href="mailto:katchang@ucdavis.edu"></a></li>
-                    <li><a class="soc-linkedin" href="https://www.linkedin.com/in/katchang2"></a></li>
-                    <li><a class="soc-behance" href="https://www.behance.net/kathy_chang"></a></li>
-                    <li><a class="soc-dribbble" href="http://dribbble.com/katchang27"></a></li>
-                    <li><a class="soc-instagram" href="https://www.instagram.com/aubluvion/"></a></li>
-                </ul>
-        </section>
-        <figcaption class="copyright">&copy 2016 Katherine Chang | Building Photo: &copy Felix Mooneeram</figcaption>        
-    
-    <!-- JAVASCRIPT -->
-        <script>
-                window.onload = function() {
-      document.getElementById("LearnMoreBtn").onclick = function(){
-            var overlay = document.getElementById("overlay");
-            var popup = document.getElementById("popup");
-            overlay.style.display = "block";
-            popup.style.display = "block";
-        };
-
-      document.getElementById("CloseBtn").onclick = function(){
-            var overlay = document.getElementById("overlay");
-            var popup = document.getElementById("popup");
-            overlay.style.display = "none";
-            popup.style.display = "none";      
-      }
-    };
-        </script>
     </body>
-    
 </html>
