@@ -13,6 +13,11 @@
     src: url("../fonts/Butler/Butler_Regular.otf");
 }
 
+@font-face {
+    font-family: "ButlerLight";
+    src: url("../fonts/Butler/Butler_Light.otf");
+}
+
 body {
     font-family: "MuliExtralight", sans-serif;
     font-size: 15px;
@@ -36,20 +41,48 @@ body {
 }
 
 .intro{
-    width: 700px;
+    width: 730px;
     position: relative;
     top: 150px;
     left: 150px; 
 }
 
 .desc {
-    font-family: "ButlerRegular";
-    font-size: 27px;
-    line-height: 40px;
+    font-family: "ButlerLight";
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.footnote {
+    font-size: 12px;
+    width: 500px;
+    margin-top: 50px;
+    line-height: 20px;
 }
 
 span {
     background-color: #ffc80d;
     color: #ffffff;
-    padding: -30px;
 }
+
+/*Links*/
+.mainlink {
+    color: #ffc80d;
+    text-decoration: underline;
+}
+
+a.mainlink:link, a.mainlink:visited {
+    color: #ffc80d;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+
+a.mainlink:hover, a.mainlink:active {
+    color: #ffc80d;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+}
+
