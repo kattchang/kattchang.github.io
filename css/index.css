@@ -39,31 +39,133 @@ body {
     height: 660px;
     padding: 50px;
 }
+    
+/*COVER CSS*/
+/*DESKTOP*/
+@media screen and (min-width: 1025px) { 
+    #cover{
+        background-image: url(../images/oleg-laptev.png); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+    }
 
-.intro{
-    width: 730px;
-    position: relative;
-    top: 150px;
-    left: 150px; 
+    .intro{
+        width: 730px;
+        position: relative;
+        top: 150px;
+        left: 150px; 
+    }
+
+    .desc {
+        font-family: "ButlerLight";
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .footnote {
+        font-size: 12px;
+        width: 500px;
+        margin-top: 50px;
+        line-height: 20px;
+    }
+
+    span {
+        background-color: #ffc80d;
+        color: #ffffff;
+    }
 }
 
-.desc {
-    font-family: "ButlerLight";
-    font-size: 30px;
-    line-height: 42px;
+/*TABLET*/
+@media screen  and (min-width: 768px) and (max-width: 1024px){
+    .intro{
+        width: 600px;
+        position: relative;
+        top: 150px;
+        left: 80px; 
+    }
+
+    .desc {
+        font-family: "ButlerLight";
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .footnote {
+        font-size: 12px;
+        width: 500px;
+        margin-top: 50px;
+        line-height: 20px;
+    }
+
+    span {
+        background-color: #ffc80d;
+        color: #ffffff;
+    }
+
 }
 
-.footnote {
-    font-size: 12px;
-    width: 500px;
-    margin-top: 50px;
-    line-height: 20px;
+
+/*MOBILE*/
+@media screen and (min-width: 481px) and (max-width: 767px){
+    .intro{
+        width: 600px;
+        position: relative;
+        top: 150px;
+        left: 30px; 
+    }
+
+    .desc {
+        font-family: "ButlerLight";
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .footnote {
+        font-size: 12px;
+        width: 500px;
+        margin-top: 50px;
+        line-height: 20px;
+    }
+
+    span {
+        background-color: #ffc80d;
+        color: #ffffff;
+    }
 }
 
-span {
-    background-color: #ffc80d;
-    color: #ffffff;
+/*MOBILE SMALLER*/
+@media screen and (max-width: 480px){
+    .intro{
+        width: 300px;
+        position: relative;
+        top: 150px;
+        left: 10px; 
+    }
+
+    .desc {
+        font-family: "ButlerLight";
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .footnote {
+        font-size: 10px;
+        width: 300px;
+        margin-top: 50px;
+        line-height: 18px;
+    }
+
+    span {
+        background-color: #ffc80d;
+        color: #ffffff;
+    }
 }
+
 
 /*Links*/
 .mainlink {
