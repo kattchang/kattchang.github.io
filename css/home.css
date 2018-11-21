@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "GreycliffCF";
+    src: url(../fonts/GreycliffCF-ExtraBold.otf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "GreycliffCF";
+    src: url(../fonts/GreycliffCF-Bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "GreycliffCF";
+    src: url(../fonts/GreycliffCF-DemiBold.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "GreycliffCF";
+    src: url(../fonts/GreycliffCF-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "GreycliffCF";
+    src: url(../fonts/GreycliffCF-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "GreycliffCF";
+    src: url(../fonts/GreycliffCF-Light.otf);
+    font-weight: 300;
+}
+
+body {
+    font-family: "GreycliffCF";
+    background-repeat: no-repeat !important;
+    background-size:cover;
+    background-image: url(../img/bg-image.png);
+}
+
+
+.navwrap {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.top-nav-bar{
+    font-family: 'GreycliffCF', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-top: 30px;
+    color: #5EC2EE;
+}
+
+.bottom-nav-bar{
+    font-family: 'GreycliffCF', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-top: 350px;
+    color: #5EC2EE;
+}
+
+nav ul li a {
+    color: #5EC2EE;
+}
+
+
+/*--HOME PAGE--*/
+
+h4 a{
+    color: #F38196;
+}
+
+.intro h2{
+    top: 220px;
+    font-family: "Greycliff CF";
+    font-weight: 500;
+    font-size: 46px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #6bc2ed;
+}
+
+.intro h4{
+    top: 220px;
+    font-family: "Greycliff CF";
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-top: 15px;
+    color: #F38196;
+}
+
+.kc {
+    color: #FEDE42;
+}
+
+.top-list-pad {
+    margin-right: -1.5em;
+}
+
+.bottom-list-pad {
+    margin-left: -2em;
+}
+
+
+/*--ABOUT PAGE--*/
+
+.about-content {
+    font-family: "Greycliff CF";
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.about-space {
+    position: relative;
+    top: 120px;
+}
+
+#about-word {
+    color: #FEDE42;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.about-content p {
+    top: 120px;
+    padding-top: 30px;
+    color: #51A0C3;
+}
+
+.about-content img {
+    position: relative;
+    top: 120px;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 7px;
+    padding-top: 30px;
+    
+}
+
+.about-content ul{
+    position: relative;
+    top: 120px;
+    padding-top: 30px;
+    color: #F38196;
+    list-style: none;
+}
