@@ -74,12 +74,13 @@ nav ul li a {
 h4 a{
     color: #F38196;
 }
+
 .intro {
     font-family: 'GreycliffCF';
     font-weight: 500px;
 }
 
-.intro h2{
+.intro h2, .about-header{
     position: relative;
     top: 150px;
     font-family: 'GreycliffCF';
@@ -120,12 +121,12 @@ h4 a{
 .about-content {
     font-family: "GreycliffCF";
     font-weight: 400;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .about-space {
     position: relative;
-    top: 120px;
+    top: 70px;
 }
 
 #about-word {
@@ -136,14 +137,14 @@ h4 a{
 }
 
 .about-content p {
-    top: 120px;
+    top: 70px;
     padding-top: 30px;
     color: #51A0C3;
 }
 
 .about-content img {
     position: relative;
-    top: 120px;
+    top: 70px;
     height: 350px;
     object-fit: contain;
     border-radius: 7px;
@@ -153,7 +154,7 @@ h4 a{
 
 .about-content ul{
     position: relative;
-    top: 120px;
+    top: 70px;
     padding-top: 30px;
     color: #F38196;
     list-style: none;
