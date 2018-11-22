@@ -74,6 +74,10 @@ nav ul li a {
 h4 a{
     color: #F38196;
 }
+.intro {
+    font-family: "GreycliffCF";
+    font-weight: 500px;
+}
 
 .intro h2{
     top: 220px;
