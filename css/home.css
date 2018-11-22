@@ -60,7 +60,7 @@ body {
     font-family: 'GreycliffCF', sans-serif;
     font-weight: 600;
     letter-spacing: 0.1em;
-    margin-top: 350px;
+    top: 250px;
     color: #5EC2EE;
 }
 
@@ -75,13 +75,13 @@ h4 a{
     color: #F38196;
 }
 .intro {
-    font-family: "GreycliffCF";
+    font-family: 'GreycliffCF';
     font-weight: 500px;
 }
 
 .intro h2{
-    top: 220px;
-    font-family: "GreycliffCF";
+    top: 150px;
+    font-family: 'GreycliffCF';
     font-weight: 500;
     font-size: 46px;
     letter-spacing: 0.03em;
@@ -90,8 +90,8 @@ h4 a{
 }
 
 .intro h4{
-    top: 220px;
-    font-family: "GreycliffCF";
+    top: 150px;
+    font-family: 'GreycliffCF';
     font-weight: 500;
     font-size: 25px;
     letter-spacing: 0.03em;
