@@ -60,7 +60,7 @@ body {
     font-family: 'GreycliffCF', sans-serif;
     font-weight: 600;
     letter-spacing: 0.1em;
-    top: 250px;
+    top: 150px;
     color: #5EC2EE;
 }
 
@@ -80,6 +80,7 @@ h4 a{
 }
 
 .intro h2{
+    position: relative;
     top: 150px;
     font-family: 'GreycliffCF';
     font-weight: 500;
@@ -90,6 +91,7 @@ h4 a{
 }
 
 .intro h4{
+    position: relative;
     top: 150px;
     font-family: 'GreycliffCF';
     font-weight: 500;
