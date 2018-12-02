@@ -95,7 +95,7 @@ h4 a{
     position: relative;
     top: 160px;
     font-family: 'GreycliffCF';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 25px;
     letter-spacing: 0.03em;
     text-align: left;
@@ -120,8 +120,9 @@ h4 a{
 
 .about-content {
     font-family: "GreycliffCF";
-    font-weight: 400;
-    font-size: 1em;
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height: 2.1em;
 }
 
 .about-space {
