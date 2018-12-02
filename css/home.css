@@ -86,7 +86,7 @@ h4 a{
     font-family: 'GreycliffCF';
     font-weight: 500;
     font-size: 46px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.01em;
     text-align: left;
     color: #6bc2ed;
 }
@@ -139,7 +139,7 @@ h4 a{
 .about-content p {
     top: 70px;
     padding-top: 30px;
-    color: #51A0C3;
+    color: #808080;
 }
 
 .about-content img {
